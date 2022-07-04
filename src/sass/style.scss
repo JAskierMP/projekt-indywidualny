@@ -19,7 +19,10 @@
 //icons
 @import "icons";
 
-.title, .subtitle {
+// Header
+
+.title,
+.subtitle {
   color: $color-light;
   text-transform: uppercase;
   font-size: 30px;
@@ -31,7 +34,12 @@
   position: absolute;
 }
 
-.container {
+.title {
+  margin: 30px 5px 1px 0;
+}
+
+.container,
+.products {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -40,6 +48,7 @@
 
 .menu {
   margin: 0;
+
   li {
     display: inline;
     font-size: 15px;
@@ -53,7 +62,7 @@ header {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  height: 1000px;
+  height: 100vh;
   width: 100%;
 }
 
@@ -62,10 +71,49 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 65%;
+  text-transform: uppercase;
 }
 
-.page-name, .page-name-secondline {
+.page-name,.page-name-secondline {
   margin: 0;
 }
 
+.page-name {
+  display: flex;
+  align-items: flex-start;
+}
 
+.line {
+  border-top: 5px solid $color-main;
+  width: 3em;
+  color: transparent;
+  margin: 50px 0 0 0;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    i {
+       color: $color-light;
+       font-size: 35px;
+    }
+}
+
+.header-bottom-text {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: $color-light;
+}
+
+// .fa-circle-arrow-down:before {
+//   width: 15px;
+//   height: 15px;
+// }
+
+// .fa-solid{
+//   width: 30px;
+//   height: 30px;
+// }
