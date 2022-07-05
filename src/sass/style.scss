@@ -19,7 +19,7 @@
 //icons
 @import "icons";
 
-// Header
+// Header /////////////////////////////////////////
 
 .title,
 .subtitle {
@@ -38,8 +38,7 @@
   margin: 30px 5px 1px 0;
 }
 
-.container,
-.products {
+.container {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -84,7 +83,7 @@ header {
   align-items: flex-start;
 }
 
-.line {
+.line-header {
   border-top: 5px solid $color-main;
   width: 3em;
   color: transparent;
@@ -96,10 +95,11 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-    i {
-       color: $color-light;
-       font-size: 35px;
-    }
+
+  i {
+    color: $color-light;
+    font-size: 35px;
+  }
 }
 
 .header-bottom-text {
@@ -108,12 +108,38 @@ header {
   color: $color-light;
 }
 
-// .fa-circle-arrow-down:before {
-//   width: 15px;
-//   height: 15px;
-// }
+//Products //////////////////////////////////////////
 
-// .fa-solid{
-//   width: 30px;
-//   height: 30px;
-// }
+.products, .about-us {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  border-top: 5px solid $color-main;
+  width: 8em;
+  color: transparent;
+  margin: 20px 0 0 0;
+}
+
+//About-us /////////////////////////////////////////////////
+
+.about-us {
+  background-image: url("../images/about-us.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
+  width: 100%;
+}
+
+.about-us-wrapper {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
