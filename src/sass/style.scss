@@ -57,7 +57,7 @@
 }
 
 header {
-  background-image: url("../images/background.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background.png);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -128,18 +128,32 @@ header {
 //About-us /////////////////////////////////////////////////
 
 .about-us {
-  background-image: url("../images/about-us.jpg");
-  background-position: center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/about-us.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 70vh;
+  background-position: center center;
+  height: 100vh;
   width: 100%;
 }
 
 .about-us-wrapper {
-  height: 90%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.about-us-paragraph-wrapper {
+  color: $color-light;
+  width: 900px;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  p {
+    margin-bottom : 30px;
+  }
+}
+
+.seeyou {
+  text-align: right;
 }
