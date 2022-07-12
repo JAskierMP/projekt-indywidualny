@@ -144,6 +144,13 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center; 
+}
+
+.product-wrapper-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
   align-items: center;
 }
 
@@ -224,4 +231,22 @@ header {
 
 .seeyou {
   text-align: right;
+}
+
+//Media
+@media (max-width: 767px) {
+ 
+  .products .product-wrapper, .product-wrapper-reverse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+  }
+
+  .page-name, .page-name-secondline {
+    width: 80vw;
+    font-size: 70px;
+  }
+
 }
