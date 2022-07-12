@@ -125,6 +125,73 @@ header {
   margin: 20px 0 0 0;
 }
 
+.small-line {
+  border-top: 5px solid $color-main;
+  width: 190px;
+  color: transparent;
+  margin: 50px 0 0 0;
+}
+
+.product-text-wrapper-rowinside {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  max-width: 700px;
+}
+
+.products .product-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-text-wrapper {
+  margin-right: 30px;
+  margin-left: 90px;
+}
+
+.product-description {
+  font-size: 25px;
+  color: $color-product;
+  margin: 0 20px;
+}
+
+.property {
+  font-size: 20px;
+  color: $color-product;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.rating {
+  font-size: 20px;
+  color: $color-main;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.ratings-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.award-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.award-image {
+  width: 30%;
+  height: 30%;
+}
+
 //About-us /////////////////////////////////////////////////
 
 .about-us {
@@ -149,6 +216,7 @@ header {
   font-size: 40px;
   display: flex;
   flex-direction: column;
+
   p {
     margin-bottom : 30px;
   }
