@@ -80,7 +80,8 @@ header {
 
 .page-name {
   display: flex;
-  align-items: flex-start;
+  align-self: flex-start;
+  margin-left: 200px;
 }
 
 .line-header {
@@ -121,15 +122,13 @@ header {
 .line {
   border-top: 5px solid $color-main;
   width: 8em;
-  color: transparent;
   margin: 20px 0 0 0;
 }
 
 .small-line {
   border-top: 5px solid $color-main;
   width: 190px;
-  color: transparent;
-  margin: 50px 0 0 0;
+  margin-bottom: 50px;
 }
 
 .product-text-wrapper-rowinside {
@@ -138,6 +137,7 @@ header {
   justify-content: left;
   align-items: center;
   max-width: 700px;
+  margin-bottom: 20px;
 }
 
 .products .product-wrapper {
@@ -145,6 +145,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center; 
+  margin-top: 50px;
 }
 
 .product-wrapper-reverse{
@@ -215,6 +216,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .about-us-paragraph-wrapper {
@@ -235,7 +237,6 @@ header {
 
 //Media
 @media (max-width: 767px) {
- 
   .products .product-wrapper, .product-wrapper-reverse{
     display: flex;
     flex-direction: column;
