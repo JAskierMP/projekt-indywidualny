@@ -2,27 +2,28 @@
 @import "_normalize";
 
 // Bootstrap
-@import "bootstrap/functions";
-@import "bootstrap/variables";
-@import "bootstrap/mixins";
-@import "bootstrap/utilities";
-@import "bootstrap/grid";
+@import "bootstrap/_functions";
+@import "bootstrap/_variables";
+@import "bootstrap/_mixins";
+@import "bootstrap/_utilities";
+@import "bootstrap/_grid";
 
 // variables
-@import "variables";
+@import "_variables";
 
 // common styles
-@import "layout";
-@import "global";
-@import "typography";
+@import "_layout";
+@import "_global";
+@import "_typography";
 
 //sections styles
 @import "_header";
 @import "_products";
-@import "about-us";
+@import "_about-us";
+@import "_contact-us";
 
 //icons
-@import "icons";
+@import "_icons";
 
 //Media
 
