@@ -38,6 +38,10 @@
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+
+  .big-image {
+    width: 100%;
+  }
 }
 
 .product-wrapper-reverse {
@@ -50,6 +54,10 @@
 .product-text-wrapper {
   margin-right: 30px;
   margin-left: 90px;
+}
+
+.products .big-image {
+  width: 100%;
 }
 
 .product-description {

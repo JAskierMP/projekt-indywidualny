@@ -28,7 +28,9 @@
 //Media
 
 @media (max-width: 1060px) {
-  header, .about-us {
+
+  header,
+  .about-us {
     min-height: 700px;
     height: auto;
   }
@@ -41,7 +43,7 @@
     align-items: center;
     margin: 0 20px;
   }
-  
+
   .page-name-wrapper {
     text-align: center;
   }
@@ -50,7 +52,7 @@
     display: grid;
     align-self: auto;
   }
-  
+
   .page-name,
   .page-name-secondline {
     width: 80vw;
@@ -80,5 +82,27 @@
 
   .about-us-paragraph-wrapper {
     max-width: 80vw;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .products .product-wrapper, 
+  .product-text-wrapper,
+  .product-wrapper-reverse {
+    max-width: 360px;
+  }
+
+  span .line, h2 {
+    max-width: 200px;
+    //display: inline;
+  }
+
+  .products .big-image {
+    width: 100%;
+  }
+
+  .about-us-wrapper .line{
+    max-width: 200px;
   }
 }
